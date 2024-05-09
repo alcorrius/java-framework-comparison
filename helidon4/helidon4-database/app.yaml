@@ -1,0 +1,37 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: helidon4-database
+  labels:
+    app: helidon4-database
+spec:
+  type: ClusterIP
+  selector:
+    app: helidon4-database
+  ports:
+    - name: tcp
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: helidon4-database
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: helidon4-database
+  template:
+    metadata:
+      labels:
+        app: helidon4-database
+        version: v1
+    spec:
+      containers:
+      - name: helidon4-database
+        image: helidon4-database
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
