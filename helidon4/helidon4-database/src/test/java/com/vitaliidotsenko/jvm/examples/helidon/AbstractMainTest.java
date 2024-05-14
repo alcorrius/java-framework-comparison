@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.vitaliidotsenko.jvm.examples.helidon;
 
 import java.util.List;
 import java.util.Map;

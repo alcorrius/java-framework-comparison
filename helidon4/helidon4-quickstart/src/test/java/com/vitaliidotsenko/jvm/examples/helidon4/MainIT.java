@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.vitaliidotsenko.jvm.examples.helidon4;
 
 import io.helidon.webclient.http1.Http1Client;
 import io.helidon.webserver.testing.junit5.ServerTest;

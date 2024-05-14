@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.vitaliidotsenko.jvm.examples.helidon4;
 
 public class Message {
 

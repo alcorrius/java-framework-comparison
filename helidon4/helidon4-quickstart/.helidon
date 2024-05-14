@@ -1,5 +1,5 @@
 #Helidon Project Configuration
-#Thu May 09 08:32:20 UTC 2024
+#Tue May 14 12:22:53 UTC 2024
 schema.version=1.1.0
 helidon.version=4.0.8
 project.flavor=se

@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.vitaliidotsenko.jvm.examples.helidon;
 
 import java.util.concurrent.atomic.AtomicReference;
 

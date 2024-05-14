@@ -11,10 +11,10 @@
     </parent>
     <groupId>com.vitaliidotsenko.jvm.examples</groupId>
     <artifactId>helidon4-quickstart</artifactId>
-    <version>1</version>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <mainClass>com.example.myproject.Main</mainClass>
+        <mainClass>com.vitaliidotsenko.jvm.examples.helidon4.Main</mainClass>
     </properties>
 
     <dependencies>

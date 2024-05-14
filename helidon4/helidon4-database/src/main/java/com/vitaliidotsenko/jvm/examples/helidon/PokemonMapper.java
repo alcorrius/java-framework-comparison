@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.vitaliidotsenko.jvm.examples.helidon;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import io.helidon.dbclient.DbMapper;
 import io.helidon.dbclient.DbRow;
 
 /**
- * Maps database statements to {@link com.example.myproject.Pokemon} class.
+ * Maps database statements to {@link com.vitaliidotsenko.jvm.examples.helidon.Pokemon} class.
  */
 public class PokemonMapper implements DbMapper<Pokemon> {
 

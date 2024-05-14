@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.vitaliidotsenko.jvm.examples.helidon4;
 
 import io.helidon.webserver.testing.junit5.DirectClient;
 import io.helidon.webserver.testing.junit5.RoutingTest;
